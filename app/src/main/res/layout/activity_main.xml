@@ -13,6 +13,10 @@
         android:textSize="56sp"
         android:textColor="#E8F5E9"
         android:layout_centerHorizontal="true"/>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
     <LinearLayout
             android:layout_width="0dp"
@@ -149,10 +153,7 @@
 
         </LinearLayout>
 
-
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+    </LinearLayout>
 
     <Button
         android:id="@+id/replay_button_view"
