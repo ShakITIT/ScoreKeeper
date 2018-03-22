@@ -107,7 +107,7 @@ public class MainActivity extends AppCompatActivity {
      */
     public void steals2(View v){
         scoreLebron = scoreLebron + 3;
-        displayForLebron(scoreJordan);
+        displayForLebron(scoreLebron);
     }
     /**
      * Resets the score to 0 for both players.
