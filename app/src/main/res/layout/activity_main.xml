@@ -53,50 +53,50 @@
                 android:layout_height="wrap_content"
                 android:onClick="points"
                 android:text="Points"
-                android:layout_marginLeft="-7dp"
-                android:layout_marginRight="-7dp"
-                android:layout_marginTop="-7dp"
-                android:layout_marginBottom="-7dp"/>
+                android:layout_marginLeft="-5dp"
+                android:layout_marginRight="-5dp"
+                android:layout_marginTop="-5dp"
+                android:layout_marginBottom="-5dp"/>
 
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:onClick="rebounds"
                 android:text="Rebounds"
-                android:layout_marginLeft="-7dp"
-                android:layout_marginRight="-7dp"
-                android:layout_marginTop="-7dp"
-                android:layout_marginBottom="-7dp"/>
+                android:layout_marginLeft="-5dp"
+                android:layout_marginRight="-5dp"
+                android:layout_marginTop="-5dp"
+                android:layout_marginBottom="-5dp"/>
 
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:onClick="assists"
                 android:text="Assists"
-                android:layout_marginLeft="-7dp"
-                android:layout_marginRight="-7dp"
-                android:layout_marginTop="-7dp"
-                android:layout_marginBottom="-7dp" />
+                android:layout_marginLeft="-5dp"
+                android:layout_marginRight="-5dp"
+                android:layout_marginTop="-5dp"
+                android:layout_marginBottom="-5dp" />
 
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:onClick="blocks"
                 android:text="Blocks"
-                android:layout_marginLeft="-7dp"
-                android:layout_marginRight="-7dp"
-                android:layout_marginTop="-7dp"
-                android:layout_marginBottom="-7dp"/>
+                android:layout_marginLeft="-5dp"
+                android:layout_marginRight="-5dp"
+                android:layout_marginTop="-5dp"
+                android:layout_marginBottom="-5dp"/>
 
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:onClick="steals"
                 android:text="Steals"
-                android:layout_marginLeft="-7dp"
-                android:layout_marginRight="-7dp"
-                android:layout_marginTop="-7dp"
-                android:layout_marginBottom="-7dp"/>
+                android:layout_marginLeft="-5dp"
+                android:layout_marginRight="-5dp"
+                android:layout_marginTop="-5dp"
+                android:layout_marginBottom="-5dp"/>
 
         </LinearLayout>
 
@@ -132,50 +132,50 @@
                 android:layout_height="wrap_content"
                 android:onClick="points2"
                 android:text="Points"
-                android:layout_marginLeft="-7dp"
-                android:layout_marginRight="-7dp"
-                android:layout_marginTop="-7dp"
-                android:layout_marginBottom="-7dp"/>
+                android:layout_marginLeft="-5dp"
+                android:layout_marginRight="-5dp"
+                android:layout_marginTop="-5dp"
+                android:layout_marginBottom="-5dp"/>
 
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:onClick="rebounds2"
                 android:text="Rebounds"
-                android:layout_marginLeft="-7dp"
-                android:layout_marginRight="-7dp"
-                android:layout_marginTop="-7dp"
-                android:layout_marginBottom="-7dp"/>
+                android:layout_marginLeft="-5dp"
+                android:layout_marginRight="-5dp"
+                android:layout_marginTop="-5dp"
+                android:layout_marginBottom="-5dp"/>
 
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:onClick="assists2"
                 android:text="Assists"
-                android:layout_marginLeft="-7dp"
-                android:layout_marginRight="-7dp"
-                android:layout_marginTop="-7dp"
-                android:layout_marginBottom="-7dp"/>
+                android:layout_marginLeft="-5dp"
+                android:layout_marginRight="-5dp"
+                android:layout_marginTop="-5dp"
+                android:layout_marginBottom="-5dp"/>
 
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:onClick="blocks2"
                 android:text="Blocks"
-                android:layout_marginLeft="-7dp"
-                android:layout_marginRight="-7dp"
-                android:layout_marginTop="-7dp"
-                android:layout_marginBottom="-7dp"/>
+                android:layout_marginLeft="-5dp"
+                android:layout_marginRight="-5dp"
+                android:layout_marginTop="-5dp"
+                android:layout_marginBottom="-5dp"/>
 
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:onClick="steals2"
                 android:text="Steals"
-                android:layout_marginLeft="-7dp"
-                android:layout_marginRight="-7dp"
-                android:layout_marginTop="-7dp"
-                android:layout_marginBottom="-7dp"/>
+                android:layout_marginLeft="-5dp"
+                android:layout_marginRight="-5dp"
+                android:layout_marginTop="-5dp"
+                android:layout_marginBottom="-5dp"/>
 
         </LinearLayout>
 
@@ -183,7 +183,7 @@
 
     <Button
         android:id="@+id/replay_button_view"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
