@@ -39,7 +39,7 @@
                 android:fontFamily="sans-serif-medium"/>
 
             <TextView
-                android:id="@+id/team_a_score"
+                android:id="@+id/Jordan_score"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
@@ -118,7 +118,7 @@
                 android:fontFamily="sans-serif-medium"/>
 
             <TextView
-                android:id="@+id/team_b_score"
+                android:id="@+id/Lebron_score"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
@@ -130,7 +130,7 @@
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:onClick="points"
+                android:onClick="points2"
                 android:text="Points"
                 android:layout_marginLeft="-7dp"
                 android:layout_marginRight="-7dp"
@@ -140,7 +140,7 @@
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:onClick="rebounds"
+                android:onClick="rebounds2"
                 android:text="Rebounds"
                 android:layout_marginLeft="-7dp"
                 android:layout_marginRight="-7dp"
@@ -150,7 +150,7 @@
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:onClick="assists"
+                android:onClick="assists2"
                 android:text="Assists"
                 android:layout_marginLeft="-7dp"
                 android:layout_marginRight="-7dp"
@@ -160,7 +160,7 @@
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:onClick="blocks"
+                android:onClick="blocks2"
                 android:text="Blocks"
                 android:layout_marginLeft="-7dp"
                 android:layout_marginRight="-7dp"
@@ -170,7 +170,7 @@
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:onClick="steals"
+                android:onClick="steals2"
                 android:text="Steals"
                 android:layout_marginLeft="-7dp"
                 android:layout_marginRight="-7dp"
@@ -183,7 +183,7 @@
 
     <Button
         android:id="@+id/replay_button_view"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"

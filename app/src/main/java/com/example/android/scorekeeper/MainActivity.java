@@ -112,7 +112,7 @@ public class MainActivity extends AppCompatActivity {
     /**
      * Resets the score to 0 for both players.
      */
-    public void rewind (View v){
+    public void replay (View v){
         scoreJordan = 0;
         scoreLebron = 0;
         displayForJordan(scoreJordan);
