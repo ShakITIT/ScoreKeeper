@@ -10,79 +10,112 @@ import com.example.android.scorekeeper.R;
 import java.util.Set;
 
 public class MainActivity extends AppCompatActivity {
-    int scoreTeamA = 0;
-    int scoreTeamB = 0;
+    int scoreJordan = 0;
+    int scoreLebron = 0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        displayForTeamA(0);
-        displayForTeamB(0);
+        displayForJordan(0);
+        displayForLebron(0);
     }
     /**
-     * Display the given score for Team A.
+     * Display the given score for Jordan.
      */
-    public void displayForTeamA(int score) {
-        TextView scoreView = (TextView) findViewById(R.id.team_a_score);
+    public void displayForJordan(int score) {
+        TextView scoreView = (TextView) findViewById(R.id.Jordan_score);
         scoreView.setText(String.valueOf(score));
     }
     /**
-     * Increase the given score for Team A by 3 points.
+     * Increase the given score for Jordan by 1 points.
      */
-    public void kakhow(View v){
-        scoreTeamA = scoreTeamA + 3;
-        displayForTeamA(scoreTeamA);
+    public void points(View v){
+        scoreJordan = scoreJordan + 1;
+        displayForJordan(scoreJordan);
     }
     /**
-     * Increase the given score for Team A by 2 points.
+     * Increase the given score for Jordan by 2 points.
      */
-    public void yackyack(View v){
-        scoreTeamA = scoreTeamA + 2;
-        displayForTeamA(scoreTeamA);
+    public void rebounds(View v){
+        scoreJordan = scoreJordan + 2;
+        displayForJordan(scoreJordan);
     }
     /**
-     * Increase the given score for Team A by 1 points.
+     * Increase the given score for Jordan by 3 points.
      */
-    public void schew(View v){
-        scoreTeamA = scoreTeamA + 1;
-        displayForTeamA(scoreTeamA);
+    public void assists(View v){
+        scoreJordan = scoreJordan + 2;
+        displayForJordan(scoreJordan);
     }
+
     /**
-     * Display the given score for Team B.
+     * Increase the given score for Jordan by 3 points.
      */
-    public void displayForTeamB(int score) {
-        TextView scoreView = (TextView) findViewById(R.id.team_b_score);
+    public void blocks(View v){
+        scoreJordan = scoreJordan + 3;
+        displayForJordan(scoreJordan);
+    }
+
+    /**
+     * Increase the given score for Jordan by 3 points.
+     */
+    public void steals(View v){
+        scoreJordan = scoreJordan + 3;
+        displayForJordan(scoreJordan);
+    }
+
+    /**
+     * Display the given score for Lebron.
+     */
+    public void displayForLebron(int score) {
+        TextView scoreView = (TextView) findViewById(R.id.Lebron_score);
         scoreView.setText(String.valueOf(score));
     }
     /**
-     * Increase the given score for Team b by 3 points.
+     * Increase the given score for Lebron by 1 points.
      */
-    public void kakhow2(View v){
-        scoreTeamB = scoreTeamB + 3;
-        displayForTeamB(scoreTeamB);
+    public void points2(View v){
+        scoreLebron = scoreLebron + 1;
+        displayForLebron(scoreLebron);
     }
     /**
-     * Increase the given score for Team b by 2 points.
+     * Increase the given score for Lebron by 2 points.
      */
-    public void yackyack2(View v){
-        scoreTeamB = scoreTeamB + 2;
-        displayForTeamB(scoreTeamB);
+    public void rebounds2(View v){
+        scoreLebron = scoreLebron + 2;
+        displayForLebron(scoreLebron);
     }
     /**
-     * Increase the given score for Team b by 1 points.
+     * Increase the given score for Lebron by 2 points.
      */
-    public void schew2(View v){
-        scoreTeamB = scoreTeamB + 1;
-        displayForTeamB(scoreTeamB);
+    public void assists2(View v){
+        scoreLebron = scoreLebron + 2;
+        displayForLebron(scoreLebron);
+    }
+
+    /**
+     * Increase the given score for Lebron by 3 points.
+     */
+    public void blocks2(View v){
+        scoreLebron = scoreLebron + 3;
+        displayForLebron(scoreLebron);
+    }
+
+    /**
+     * Increase the given score for Lebron by 3 points.
+     */
+    public void steals2(View v){
+        scoreLebron = scoreLebron + 3;
+        displayForLebron(scoreJordan);
     }
     /**
-     * Resets the score to 0 for both teams.
+     * Resets the score to 0 for both players.
      */
     public void rewind (View v){
-        scoreTeamA = 0;
-        scoreTeamB = 0;
-        displayForTeamA(scoreTeamA);
-        displayForTeamB(scoreTeamB);
+        scoreJordan = 0;
+        scoreLebron = 0;
+        displayForJordan(scoreJordan);
+        displayForLebron(scoreLebron);
     }
 }

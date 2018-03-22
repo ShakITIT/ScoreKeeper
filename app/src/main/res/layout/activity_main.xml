@@ -10,14 +10,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
-        android:text="One on One?"
-        android:textSize="56sp"
+        android:text="1 on1?"
+        android:textSize="50sp"
         android:textColor="#E8F5E9"
         android:layout_centerHorizontal="true"/>
     
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:layout_above="@id/replay_button_view"
         android:orientation="horizontal">
 
@@ -53,37 +53,50 @@
                 android:layout_height="wrap_content"
                 android:onClick="points"
                 android:text="Points"
-                android:paddingLeft="24dp"
-                android:paddingTop="24dp"
-                android:paddingRight="24dp"/>
+                android:layout_marginLeft="-7dp"
+                android:layout_marginRight="-7dp"
+                android:layout_marginTop="-7dp"
+                android:layout_marginBottom="-7dp"/>
 
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:onClick="rebounds"
                 android:text="Rebounds"
-                android:paddingLeft="24dp"
-                android:paddingRight="24dp" />
+                android:layout_marginLeft="-7dp"
+                android:layout_marginRight="-7dp"
+                android:layout_marginTop="-7dp"
+                android:layout_marginBottom="-7dp"/>
 
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:onClick="assists"
-                android:text="Assists" />
+                android:text="Assists"
+                android:layout_marginLeft="-7dp"
+                android:layout_marginRight="-7dp"
+                android:layout_marginTop="-7dp"
+                android:layout_marginBottom="-7dp" />
 
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:onClick="blocks"
                 android:text="Blocks"
-                android:paddingLeft="24dp"
-                android:paddingRight="24dp" />
+                android:layout_marginLeft="-7dp"
+                android:layout_marginRight="-7dp"
+                android:layout_marginTop="-7dp"
+                android:layout_marginBottom="-7dp"/>
 
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:onClick="steals"
-                android:text="Steals" />
+                android:text="Steals"
+                android:layout_marginLeft="-7dp"
+                android:layout_marginRight="-7dp"
+                android:layout_marginTop="-7dp"
+                android:layout_marginBottom="-7dp"/>
 
         </LinearLayout>
 
@@ -119,37 +132,50 @@
                 android:layout_height="wrap_content"
                 android:onClick="points"
                 android:text="Points"
-                android:paddingLeft="24dp"
-                android:paddingRight="24dp"/>
+                android:layout_marginLeft="-7dp"
+                android:layout_marginRight="-7dp"
+                android:layout_marginTop="-7dp"
+                android:layout_marginBottom="-7dp"/>
 
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:onClick="rebounds"
                 android:text="Rebounds"
-                android:paddingLeft="24dp"
-                android:paddingTop="8dp"
-                android:paddingRight="24dp" />
+                android:layout_marginLeft="-7dp"
+                android:layout_marginRight="-7dp"
+                android:layout_marginTop="-7dp"
+                android:layout_marginBottom="-7dp"/>
 
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:onClick="assists"
-                android:text="Assists" />
+                android:text="Assists"
+                android:layout_marginLeft="-7dp"
+                android:layout_marginRight="-7dp"
+                android:layout_marginTop="-7dp"
+                android:layout_marginBottom="-7dp"/>
 
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:onClick="blocks"
                 android:text="Blocks"
-                android:paddingLeft="24dp"
-                android:paddingRight="24dp" />
+                android:layout_marginLeft="-7dp"
+                android:layout_marginRight="-7dp"
+                android:layout_marginTop="-7dp"
+                android:layout_marginBottom="-7dp"/>
 
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:onClick="steals"
-                android:text="Steals" />
+                android:text="Steals"
+                android:layout_marginLeft="-7dp"
+                android:layout_marginRight="-7dp"
+                android:layout_marginTop="-7dp"
+                android:layout_marginBottom="-7dp"/>
 
         </LinearLayout>
 
@@ -162,7 +188,11 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:text="Replay"
-        android:onClick="replay"/>
+        android:onClick="replay"
+        android:layout_marginLeft="-7dp"
+        android:layout_marginRight="-7dp"
+        android:layout_marginTop="-7dp"
+        android:layout_marginBottom="-7dp" />
 
 
 
