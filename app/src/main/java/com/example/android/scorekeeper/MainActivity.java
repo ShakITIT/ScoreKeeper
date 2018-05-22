@@ -20,6 +20,7 @@ public class MainActivity extends AppCompatActivity {
         displayForJordan(0);
         displayForLebron(0);
     }
+
     /**
      * Display the given score for Jordan.
      */
@@ -27,6 +28,7 @@ public class MainActivity extends AppCompatActivity {
         TextView scoreView = (TextView) findViewById(R.id.Jordan_score);
         scoreView.setText(String.valueOf(score));
     }
+
     /**
      * Increase the given score for Jordan by 1 points.
      */
@@ -34,6 +36,7 @@ public class MainActivity extends AppCompatActivity {
         scoreJordan = scoreJordan + 1;
         displayForJordan(scoreJordan);
     }
+
     /**
      * Increase the given score for Jordan by 2 points.
      */
@@ -41,27 +44,12 @@ public class MainActivity extends AppCompatActivity {
         scoreJordan = scoreJordan + 2;
         displayForJordan(scoreJordan);
     }
+
     /**
      * Increase the given score for Jordan by 3 points.
      */
     public void assists(View v){
         scoreJordan = scoreJordan + 2;
-        displayForJordan(scoreJordan);
-    }
-
-    /**
-     * Increase the given score for Jordan by 3 points.
-     */
-    public void blocks(View v){
-        scoreJordan = scoreJordan + 3;
-        displayForJordan(scoreJordan);
-    }
-
-    /**
-     * Increase the given score for Jordan by 3 points.
-     */
-    public void steals(View v){
-        scoreJordan = scoreJordan + 3;
         displayForJordan(scoreJordan);
     }
 
@@ -72,6 +60,7 @@ public class MainActivity extends AppCompatActivity {
         TextView scoreView = (TextView) findViewById(R.id.Lebron_score);
         scoreView.setText(String.valueOf(score));
     }
+
     /**
      * Increase the given score for Lebron by 1 points.
      */
@@ -79,17 +68,11 @@ public class MainActivity extends AppCompatActivity {
         scoreLebron = scoreLebron + 1;
         displayForLebron(scoreLebron);
     }
+
     /**
      * Increase the given score for Lebron by 2 points.
      */
     public void rebounds2(View v){
-        scoreLebron = scoreLebron + 2;
-        displayForLebron(scoreLebron);
-    }
-    /**
-     * Increase the given score for Lebron by 2 points.
-     */
-    public void assists2(View v){
         scoreLebron = scoreLebron + 2;
         displayForLebron(scoreLebron);
     }
@@ -102,13 +85,6 @@ public class MainActivity extends AppCompatActivity {
         displayForLebron(scoreLebron);
     }
 
-    /**
-     * Increase the given score for Lebron by 3 points.
-     */
-    public void steals2(View v){
-        scoreLebron = scoreLebron + 3;
-        displayForLebron(scoreLebron);
-    }
     /**
      * Resets the score to 0 for both players.
      */
