@@ -56,15 +56,15 @@ public class MainActivity extends AppCompatActivity {
     /**
     * Increase the given score for Jordan by 3 points.
     */
-    public void steals (View v){
+    public void blocks (View v){
         scoreJordan = scoreJordan + 3;
         displayForJordan(scoreJordan);
     }
 
     /**
-    * Increase the given score for Jordan by 3 points.
-    */
-    public void blocks (View v){
+     * Increase the given score for Jordan by 3 points.
+     */
+    public void steals (View v){
         scoreJordan = scoreJordan + 3;
         displayForJordan(scoreJordan);
     }
@@ -94,11 +94,27 @@ public class MainActivity extends AppCompatActivity {
     }
 
     /**
+     * Increase the given score for Jordan by 2 points.
+     */
+    public void assists2(View v){
+        scoreJordan = scoreJordan + 2;
+        displayForJordan(scoreJordan);
+    }
+
+    /**
      * Increase the given score for Lebron by 3 points.
      */
     public void blocks2(View v){
         scoreLebron = scoreLebron + 3;
         displayForLebron(scoreLebron);
+    }
+
+    /**
+     * Increase the given score for Jordan by 3 points.
+     */
+    public void steals2 (View v){
+        scoreJordan = scoreJordan + 3;
+        displayForJordan(scoreJordan);
     }
 
     /**
